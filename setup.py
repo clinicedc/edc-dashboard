@@ -15,7 +15,7 @@ setup(
     author=u'Erik van Widenfelt',
     author_email='ew2789@gmail.com',
     packages=find_packages(),
-    url='http://github.com/botswana-harvard/edc-dashboard',
+    url='http://github.com/clinicedc/edc-dashboard',
     license='GPL licence, see LICENCE',
     description='EDC dashboard classes and templates.',
     long_description=README,
