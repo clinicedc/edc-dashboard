@@ -1,3 +1,1 @@
 recursive-include edc_dashboard/templates *
-recursive-include edc_dashboard/static/css *
-recursive-include edc_dashboard/static/img *
