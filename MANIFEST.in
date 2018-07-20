@@ -1,1 +1,2 @@
+include AUTHORS CHANGES README.md LICENCE VERSION
 recursive-include edc_dashboard/templates *
