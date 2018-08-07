@@ -25,6 +25,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     keywords='django Edc dashboard classes and templates',
+    install_requires=['edc-base'],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
