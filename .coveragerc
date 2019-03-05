@@ -1,0 +1,4 @@
+[run]
+include = edc_dashboard/*
+omit = edc_dashboard/tests/*,edc_dashboard/migrations/*
+branch = 1
