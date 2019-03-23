@@ -1,4 +1,4 @@
-|pypi| |travis| |coverage|
+|pypi| |travis| |codecov| |downloads|
 
 
 edc-dashboard
@@ -14,7 +14,8 @@ A collection of constants and choices for the clinicedc/edc projects.
 .. |travis| image:: https://travis-ci.org/clinicedc/edc-dashboard.svg?branch=develop
     :target: https://travis-ci.org/clinicedc/edc-dashboard
     
-.. |coverage| image:: https://coveralls.io/repos/github/clinicedc/edc-dashboard/badge.svg?branch=develop
-    :target: https://coveralls.io/github/clinicedc/edc-dashboard?branch=develop
+.. |codecov| image:: https://codecov.io/gh/clinicedc/edc-dashboard/branch/develop/graph/badge.svg
+  :target: https://codecov.io/gh/clinicedc/edc-dashboard
 
-
+.. |downloads| image:: https://pepy.tech/badge/edc-dashboard
+   :target: https://pepy.tech/project/edc-dashboard

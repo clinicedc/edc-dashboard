@@ -13,7 +13,8 @@ with open(join(dirname(__file__), 'VERSION')) as f:
 tests_require = ['edc-appointment', 'edc-consent', 'edc-metadata',
                  'edc-device', 'edc-identifier', 'edc-model-wrapper',
                  'edc-protocol', 'edc-visit_schedule', 'edc-visit-tracking',
-                 'edc-timepoint', 'edc-registration', 'edc-permissions']
+                 'edc-timepoint', 'edc-registration', 'edc-permissions',
+                 'edc_test_utils']
 with open(join(dirname(abspath(__file__)), 'requirements.txt')) as f:
     for line in f:
         tests_require.append(line.strip())
