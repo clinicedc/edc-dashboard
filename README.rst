@@ -4,8 +4,7 @@
 edc-dashboard
 --------------
 
-A collection of constants and choices for the clinicedc/edc projects.
-
+Core classes for dashboards used by the EDC. e.g. Listboard, SubjectDashboard
 
 
 .. |pypi| image:: https://img.shields.io/pypi/v/edc-dashboard.svg
