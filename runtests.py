@@ -34,7 +34,6 @@ DEFAULT_SETTINGS = DefaultTestSettings(
         'edc_appointment.apps.AppConfig',
         'edc_action_item.apps.AppConfig',
         'edc_notification.apps.AppConfig',
-        'edc_base.apps.AppConfig',
         'edc_consent.apps.AppConfig',
         'edc_device.apps.AppConfig',
         'edc_identifier.apps.AppConfig',
@@ -49,6 +48,7 @@ DEFAULT_SETTINGS = DefaultTestSettings(
         'edc_dashboard.apps.AppConfig',
     ],
     add_dashboard_middleware=True,
+    use_test_urls=True,
 ).settings
 
 

@@ -36,8 +36,8 @@ setup(
     zip_safe=False,
     keywords='django Edc dashboard classes and templates',
     install_requires=[
-        'edc-base',
-        'edc-navbar'],
+        "django-js-reverse",
+        "edc-navbar"],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
