@@ -1,3 +1,0 @@
-edc-model-wrapper
-edc-search
-edc-navbar
