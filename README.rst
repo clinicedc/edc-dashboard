@@ -2,7 +2,7 @@
 
 
 edc-dashboard
---------------
+-------------
 
 Core classes for dashboards used by the EDC. e.g. Listboard, SubjectDashboard
 
