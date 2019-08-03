@@ -11,3 +11,6 @@ edc-timepoint
 edc-registration
 edc-permissions
 edc_test_utils
+edc-data-manager
+edc-lab
+edc-auth
