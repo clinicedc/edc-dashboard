@@ -28,6 +28,7 @@ edc-model-admin
 edc-navbar
 edc-notification
 edc-offstudy
+edc_pdutils
 edc-pharmacy
 edc-pharmacy-dashboard
 edc-prn
