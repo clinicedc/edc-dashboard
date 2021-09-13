@@ -7,18 +7,20 @@ from os.path import abspath, dirname
 import django
 from django.conf import settings
 from django.test.runner import DiscoverRunner
-from edc_test_utils import DefaultTestSettings
+from edc_test_utils import DefaultTestSettings, func_main
 
 app_name = "edc_dashboard"
 base_dir = dirname(abspath(__file__))
 
-DEFAULT_SETTINGS = DefaultTestSettings(
+project_settings = DefaultTestSettings(
     calling_file=__file__,
     template_dirs=[os.path.join(base_dir, app_name, "tests", "templates")],
     APP_NAME=app_name,
     BASE_DIR=base_dir,
     ETC_DIR=os.path.join(base_dir, app_name, "tests", "etc"),
     EDC_NAVBAR_DEFAULT=app_name,
+    EDC_AUTH_SKIP_SITE_AUTHS=True,
+    EDC_AUTH_SKIP_AUTH_UPDATER=True,
     INSTALLED_APPS=[
         "django.contrib.admin",
         "django.contrib.auth",
@@ -69,11 +71,7 @@ DEFAULT_SETTINGS = DefaultTestSettings(
 
 
 def main():
-    if not settings.configured:
-        settings.configure(**DEFAULT_SETTINGS)
-    django.setup()
-    failures = DiscoverRunner(failfast=True).run_tests([f"{app_name}.tests"])
-    sys.exit(failures)
+    func_main(app_name, project_settings)
 
 
 if __name__ == "__main__":
