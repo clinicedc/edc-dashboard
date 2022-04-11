@@ -21,6 +21,7 @@ setup(
     packages=find_packages(),
     url="http://github.com/clinicedc/edc-dashboard",
     license="GPL license, see LICENSE",
+    long_description_content_type="text/x-rst",
     description="Dashboard classes, templates for clinicedc/edc projects.",
     long_description=README,
     include_package_data=True,
