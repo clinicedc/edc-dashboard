@@ -29,7 +29,6 @@ project_settings = DefaultTestSettings(
         "django_revision.apps.AppConfig",
         "django_celery_results",
         "django_celery_beat",
-        "import_export",
         "multisite",
         "edc_appointment.apps.AppConfig",
         "edc_action_item.apps.AppConfig",
