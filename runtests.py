@@ -29,7 +29,6 @@ project_settings = DefaultTestSettings(
         "django.contrib.messages",
         "django.contrib.staticfiles",
         "django.contrib.sites",
-        "django_js_reverse",
         "django_crypto_fields.apps.AppConfig",
         "django_revision.apps.AppConfig",
         "django_celery_results",
