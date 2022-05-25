@@ -1,12 +1,8 @@
 #!/usr/bin/env python
 import logging
 import os
-import sys
 from os.path import abspath, dirname
 
-import django
-from django.conf import settings
-from django.test.runner import DiscoverRunner
 from edc_test_utils import DefaultTestSettings, func_main
 
 app_name = "edc_dashboard"
