@@ -43,7 +43,6 @@ project_settings = DefaultTestSettings(
         "edc_list_data.apps.AppConfig",
         "edc_locator.apps.AppConfig",
         "edc_metadata.apps.AppConfig",
-        "edc_model_wrapper.apps.AppConfig",
         "edc_navbar.apps.AppConfig",
         "edc_offstudy.apps.AppConfig",
         "edc_pharmacy.apps.AppConfig",
