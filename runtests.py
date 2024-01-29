@@ -56,6 +56,7 @@ project_settings = DefaultTestSettings(
         "edc_dashboard.apps.AppConfig",
         "adverse_event_app.apps.AppConfig",
         "edc_auth.apps.AppConfig",
+        "edc_appconfig.apps.AppConfig",
     ],
     add_dashboard_middleware=True,
     use_test_urls=True,
