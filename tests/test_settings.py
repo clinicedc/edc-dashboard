@@ -4,7 +4,7 @@ from pathlib import Path
 
 from edc_test_settings.default_test_settings import DefaultTestSettings
 
-app_name = "edc_auth"
+app_name = "edc_dashboard"
 base_dir = Path(__file__).absolute().parent.parent
 
 project_settings = DefaultTestSettings(
